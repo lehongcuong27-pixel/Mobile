@@ -23,6 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Họ và tên đầy đủ"
+        android:textColor="@color/text_main"
+        android:textColorHint="@color/text_muted"
         android:inputType="textCapWords"
         android:imeOptions="actionNext"
         android:padding="14dp"
@@ -34,6 +36,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
         android:hint="Số điện thoại liên hệ"
+        android:textColor="@color/text_main"
+        android:textColorHint="@color/text_muted"
         android:inputType="phone"
         android:imeOptions="actionDone"
         android:padding="14dp"
@@ -59,6 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nam"
+            android:textColor="@color/text_main"
             android:checked="true"
             android:buttonTint="@color/primary_blue" />
 
@@ -68,6 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:text="Nữ"
+            android:textColor="@color/text_main"
             android:buttonTint="@color/primary_blue" />
     </RadioGroup>
 <!--ô đồng ý các điều khoản-->

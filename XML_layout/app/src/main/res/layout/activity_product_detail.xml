@@ -76,6 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
                 android:text="Tiêu Chuẩn"
+                android:textColor="@color/text_main"
                 android:checked="true"
                 android:buttonTint="@color/primary_blue" />
 
@@ -84,6 +85,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Bản Pro"
+                android:textColor="@color/text_main"
                 android:buttonTint="@color/primary_blue" />
         </RadioGroup>
 <!--ô chọn bảo hành-->
